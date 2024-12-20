@@ -10,10 +10,8 @@ function Login() {
   return (
   <>
     <Navbar />
-    <section className="flex mt-32 mb-28 md:mb-36 justify-center items-center h-screen">
-      {/* Container for both the form and the image */}
-      <div className="  lg:justify-center  flex items-center w-full">
-        {/* Login form */}
+    <section className="flex mt-32 mb-28 md:mb-36 bg-white text-black justify-center items-center h-screen">
+      <div className="  justify-center  flex items-center w-full">
         <div className="w-96 p-6 bg-white rounded-lg">
           <span className="text-3xl font-semibold mb-6 block dynamic-hover">Login</span>
 
@@ -53,7 +51,6 @@ function Login() {
           </p>
         </div>
 
-        {/* Image */}
         <div className="ml-10 hidden md:block">
           <Image src="/login/login.png" width={450} height={400} alt="login" />
         </div>

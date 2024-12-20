@@ -27,10 +27,10 @@ function Footer() {
             </p>
             <div className="flex justify-center gap-3 mt-4">
               <li>
-                <FaInstagram className="border rounded-full text-3xl p-1 text-slate-400 border-slate-400" />
+                <FaInstagram className="border-2 rounded-full text-3xl p-1 text-white border-white" />
               </li>
               <li>
-                <FaFacebook className="border rounded-full text-3xl p-1 text-slate-400 border-slate-400" />
+                <FaFacebook className="border-2 rounded-full text-3xl p-1 text-white border-white" />
               </li>
             </div>
             <div className="sm:flex sm:flex-col md:flex-row text-xs mt-5 gap-3 justify-center">
