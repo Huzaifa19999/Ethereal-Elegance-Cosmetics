@@ -10,10 +10,10 @@ function Login() {
   return (
   <>
     <Navbar />
-    <section className="flex mt-32 mb-28 md:mb-36 bg-white text-black justify-center items-center h-screen">
+    <section className="flex mt-28 mb-28 md:mb-36 bg-white text-black justify-center items-center h-screen">
       <div className="  justify-center  flex items-center w-full">
         <div className="w-96 p-6 bg-white rounded-lg">
-          <span className="text-3xl font-semibold mb-6 block dynamic-hover">Login</span>
+          <span className="text-3xl font-thin  mb-6 block dynamic-hover">Login</span>
 
           <input 
             type="text" 
