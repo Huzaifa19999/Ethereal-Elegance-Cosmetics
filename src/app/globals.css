@@ -24,10 +24,11 @@ body {
 
 
 html, body {
-  background-color: #f0f0f0; 
+  background-color: white; 
   margin: 0;
   padding: 0;
   height: 100%;
+  color: black;
 }
 
 * {
@@ -39,9 +40,6 @@ li {
   list-style-type: none;
 }
 
-.arrow {
-  /* font-size: 30px; */
-}
 
 .position-footer {
   top: -40px;
@@ -73,6 +71,4 @@ li {
   transform: scaleX(1);
 }
 
-.stylish-text {
-  font-family: ;
-}
+
