@@ -52,7 +52,7 @@ function Contactus() {
             </div>
           </div>
         </div>
-        <p className="text-center italic">Explore Our Range of Leading Brand Products</p>
+        <p className="justify-center italic mb-10 lg:flex hidden">Explore Our Range of Leading Brand Products</p>
         <Banner/>
         <Email/>
       </section>
