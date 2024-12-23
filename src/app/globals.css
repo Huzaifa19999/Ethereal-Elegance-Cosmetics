@@ -57,7 +57,7 @@ li {
   left: 0;
   bottom: 0;
   content: '';
-  width: 80px;
+  width: 5%;
   height: 3px; 
   background-color: red;
   transform-origin: left;
