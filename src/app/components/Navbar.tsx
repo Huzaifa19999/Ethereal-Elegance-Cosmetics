@@ -31,7 +31,9 @@ function Navbar() {
           <Link href={"/aboutus"}>
             <li className="cursor-pointer hover:text-black">ABOUT US</li>
           </Link>
+          <Link href={'products'}>
           <li className="cursor-pointer hover:text-black">SHOP</li>
+          </Link>
           <Link href={'/contactus'}>
           <li className="cursor-pointer hover:text-black">CONTACT US</li>
           </Link>
