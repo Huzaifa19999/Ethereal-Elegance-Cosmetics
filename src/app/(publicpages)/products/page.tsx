@@ -16,7 +16,6 @@ function Products() {
           width={1600}
         />
         <section className="flex flex-col lg:flex-row justify-around px-4 md:px-20">
-
           {/* Filters Section */}
           <div className="flex flex-col lg:w-3/12 md:w-4/12 w-full mx-auto mt-10 lg:mt-0">
             <div className="leading-loose">
@@ -63,7 +62,9 @@ function Products() {
               <br />
               {/* Availability Filter */}
               <ul>
-                <li className="font-bold text-lg dynamic-hover">Availability</li>
+                <li className="font-bold text-lg dynamic-hover">
+                  Availability
+                </li>
                 <li>
                   <input type="checkbox" /> In Stock
                 </li>
@@ -114,16 +115,149 @@ function Products() {
           {/* Products Section */}
           <div className="w-full lg:w-8/12 flex flex-col lg:flex-row justify-start mt-20 lg:mt-0">
             <div className="w-full lg:w-11/12 flex flex-col  justify-start">
-            <div className="flex mt-10 lg:justify-end md:justify-start">
-              <p className="mt-2 text-slate-300">Sort by:</p>
-              <select className="border-2 h-10 ms-4 p-2 w-60 rounded-2xl">
-                <option value="">Relevance</option>
-              </select>
+              <div className="flex mt-10 lg:justify-end md:justify-start">
+                <p className="mt-2 text-slate-300">Sort by:</p>
+                <select className="border-2 h-10 ms-4 p-2 w-60 rounded-2xl">
+                  <option value="">Relevance</option>
+                </select>
+              </div>
+              <hr className="border-2 border-black mt-5 w-full" />
+              <div className="flex flex-wrap justify-around mt-10">
+                <div className="text-center text-sm shadow-md">
+                  <Image
+                    alt="img1"
+                    src={"/products/products/img1.png"}
+                    height={200}
+                    width={200}
+                  />
+                  <p className=" text-red-600">LIPLOSE</p>
+                  <p className="text-md">PINK LIP-GLOSS</p>
+                  <p className="text-xl">$30.00</p>
+                </div>
+                <div className="text-center text-sm shadow-md">
+                  <Image
+                    alt="img1"
+                    src={"/products/products/img3.png"}
+                    height={200}
+                    width={200}
+                  />
+                  <p className=" text-red-600">LIPLOSE</p>
+                  <p className="text-md">PINK LIP-GLOSS</p>
+                  <p className="text-xl">$30.00</p>
+                </div>
+                <div className="text-center text-sm shadow-md">
+                  <Image
+                    alt="img1"
+                    src={"/products/products/img4.png"}
+                    height={200}
+                    width={200}
+                  />
+                  <p className=" text-red-600">LIPLOSE</p>
+                  <p className="text-md">PINK LIP-GLOSS</p>
+                  <p className="text-xl">$30.00</p>
+                </div>
+                <div className="text-center text-sm shadow-md">
+                  <Image
+                    alt="img1"
+                    src={"/products/products/img5.png"}
+                    height={200}
+                    width={200}
+                  />
+                  <p className=" text-red-600">LIPLOSE</p>
+                  <p className="text-md">PINK LIP-GLOSS</p>
+                  <p className="text-xl">$30.00</p>
+                </div>
+                <div className="text-center text-sm shadow-md">
+                  <Image
+                    alt="img1"
+                    src={"/products/products/img6.png"}
+                    height={200}
+                    width={200}
+                  />
+                  <p className=" text-red-600">LIPLOSE</p>
+                  <p className="text-md">PINK LIP-GLOSS</p>
+                  <p className="text-xl">$30.00</p>
+                </div>
+                <div className="text-center text-sm shadow-md">
+                  <Image
+                    alt="img1"
+                    src={"/products/products/img7.png"}
+                    height={200}
+                    width={200}
+                  />
+                  <p className=" text-red-600">LIPLOSE</p>
+                  <p className="text-md">PINK LIP-GLOSS</p>
+                  <p className="text-xl">$30.00</p>
+                </div>
+                <div className="text-center text-sm shadow-md">
+                  <Image
+                    alt="img1"
+                    src={"/products/products/img8.png"}
+                    height={200}
+                    width={200}
+                  />
+                  <p className=" text-red-600">LIPLOSE</p>
+                  <p className="text-md">PINK LIP-GLOSS</p>
+                  <p className="text-xl">$30.00</p>
+                </div>
+                <div className="text-center text-sm shadow-md">
+                  <Image
+                    alt="img1"
+                    src={"/products/products/img9.png"}
+                    height={200}
+                    width={200}
+                  />
+                  <p className=" text-red-600">LIPLOSE</p>
+                  <p className="text-md">PINK LIP-GLOSS</p>
+                  <p className="text-xl">$30.00</p>
+                </div>
+                <div className="text-center text-sm shadow-md">
+                  <Image
+                    alt="img1"
+                    src={"/products/products/img10.png"}
+                    height={200}
+                    width={200}
+                  />
+                  <p className=" text-red-600">LIPLOSE</p>
+                  <p className="text-md">PINK LIP-GLOSS</p>
+                  <p className="text-xl">$30.00</p>
+                </div>
+                <div className="text-center text-sm shadow-md">
+                  <Image
+                    alt="img1"
+                    src={"/products/products/img11.png"}
+                    height={200}
+                    width={200}
+                  />
+                  <p className=" text-red-600">LIPLOSE</p>
+                  <p className="text-md">PINK LIP-GLOSS</p>
+                  <p className="text-xl">$30.00</p>
+                </div>
+                <div className="text-center text-sm shadow-md">
+                  <Image
+                    alt="img1"
+                    src={"/products/products/img1.png"}
+                    height={200}
+                    width={200}
+                  />
+                  <p className=" text-red-600">LIPLOSE</p>
+                  <p className="text-md">PINK LIP-GLOSS</p>
+                  <p className="text-xl">$30.00</p>
+                </div>
+                <div className="text-center text-sm shadow-md">
+                  <Image
+                    alt="img1"
+                    src={"/products/products/img1.png"}
+                    height={200}
+                    width={200}
+                  />
+                  <p className=" text-red-600">LIPLOSE</p>
+                  <p className="text-md">PINK LIP-GLOSS</p>
+                  <p className="text-xl">$30.00</p>
+                </div>
+               
+              </div>
             </div>
-            <hr className="border-2 border-black mt-5 w-full" />
-            </div>
-            {/* Add Product Listings Below */}
-            {/* Add Product Card Components Here */}
           </div>
         </section>
       </section>
