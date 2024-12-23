@@ -100,7 +100,6 @@ function Products() {
                 </div>
                 <br />
               </div>
-              {/* Image Below */}
               <div>
                 <Image
                   src={"/products/Rectangle 163.png"}
@@ -112,7 +111,6 @@ function Products() {
             </div>
           </div>
 
-          {/* Products Section */}
           <div className="w-full lg:w-8/12 flex flex-col lg:flex-row justify-start mt-20 lg:mt-0">
             <div className="w-full lg:w-11/12 flex flex-col  justify-start">
               <div className="flex mt-10 lg:justify-end md:justify-start">
@@ -122,7 +120,7 @@ function Products() {
                 </select>
               </div>
               <hr className="border-2 border-black mt-5 w-full" />
-              <div className="flex flex-wrap justify-around mt-10">
+              <div className="flex  flex-wrap gap-y-5 gap-5 justify-around mt-10">
                 <div className="text-center text-sm shadow-md">
                   <Image
                     alt="img1"
