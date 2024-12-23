@@ -7,7 +7,8 @@ function Blogs() {
   return (
     <>
       <Navbar/>
-      
+      <Image alt='blog' width={1600} height={1600} className='w-full' src={'/blogs/Frame 129.png'}/>
+      {/* <Blogs/> */}
       <Footer/>
     </>
   )

@@ -16,8 +16,8 @@ function Contactus() {
             className="w-full"
             src={"/contactus/Frame 98.png"}
             alt="cover"
-            width={400}
-            height={400}
+            width={1600}
+            height={1200}
           />
         </div>
         <div className="text-center mb-16 p-3 shadow-md mx-4 mt-16">
@@ -52,7 +52,7 @@ function Contactus() {
             </div>
           </div>
         </div>
-        <p className="justify-center italic mb-10 lg:flex hidden">Explore Our Range of Leading Brand Products</p>
+        <p className="justify-center font-bold italic mb-10 lg:flex hidden">Explore Our Range of Leading Brand Products</p>
         <Banner/>
         <Email/>
       </section>

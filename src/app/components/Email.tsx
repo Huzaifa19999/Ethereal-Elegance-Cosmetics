@@ -43,7 +43,7 @@ function Email() {
           </div>
         </div>
         
-        <div className="md:mt-32 mt-10 text-sm md:w-6/12 lg:w-9/12 mx-auto lg:mx-0 font-sans lg:text-start">
+        <div className="md:mt-36 mt-10 text-sm md:w-6/12 lg:w-9/12 mx-auto lg:mx-0 font-sans lg:text-start">
           <textarea 
             className='border-2 h-40 border-gray-400 p-4 w-full rounded-md' 
             placeholder="Your Message"
