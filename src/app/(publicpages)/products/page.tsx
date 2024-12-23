@@ -16,14 +16,12 @@ function Products() {
           width={1600}
         />
         <section className="flex flex-col lg:flex-row justify-around px-4 md:px-20">
-          {/* Filters Section */}
           <div className="flex flex-col lg:w-3/12 md:w-4/12 w-full mx-auto mt-10 lg:mt-0">
             <div className="leading-loose">
               <p className="font-bold mt-10 dynamic-hover text-lg">All</p>
               <br />
               <p className="font-bold text-lg dynamic-hover">Filter By</p>
               <br />
-              {/* Size Filter */}
               <ul>
                 <li className="font-bold dynamic-hover text-lg">Size</li>
                 <li>
@@ -40,7 +38,6 @@ function Products() {
                 </li>
               </ul>
               <br />
-              {/* Product Filter */}
               <ul>
                 <li className="font-bold dynamic-hover text-lg">Product</li>
                 <li>
@@ -60,7 +57,6 @@ function Products() {
                 </li>
               </ul>
               <br />
-              {/* Availability Filter */}
               <ul>
                 <li className="font-bold text-lg dynamic-hover">
                   Availability
@@ -82,19 +78,18 @@ function Products() {
                 </li>
               </ul>
               <br />
-              {/* Tags Section */}
               <div>
                 <p className="font-bold dynamic-hover text-lg">Tags</p>
                 <hr className="w-4/12 border-2" />
                 <br />
                 <div className="flex text-slate-400 gap-3 flex-wrap">
-                  <button className="border-2 border-slate-400 rounded-2xl p-1 px-2">
+                  <button className="border-2 hover:bg-slate-400 hover:text-white border-slate-400 rounded-2xl p-1 px-2">
                     Makeup
                   </button>
-                  <button className="border-2 border-slate-400 rounded-2xl p-1 px-2">
+                  <button className="border-2  hover:bg-slate-400 hover:text-white border-slate-400 rounded-2xl p-1 px-2">
                     Face Cream
                   </button>
-                  <button className="border-2 border-slate-400 rounded-2xl p-1 px-2">
+                  <button className="border-2  hover:bg-slate-400 hover:text-white border-slate-400 rounded-2xl p-1 px-2">
                     Skin Care
                   </button>
                 </div>
@@ -259,6 +254,8 @@ function Products() {
           </div>
         </section>
       </section>
+      <br />
+      <br />
       <Footer />
     </>
   );
